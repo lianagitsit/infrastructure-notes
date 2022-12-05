@@ -1,0 +1,5 @@
+# Build image with default Ubuntu packages
+# docker build -f Dockerfile.linuxplayground .
+
+FROM ubuntu:18.04
+RUN apt-get update && yes | unminimize
