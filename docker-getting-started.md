@@ -50,3 +50,7 @@ exec executes a command in a container that already exists (different from run w
 docker-compose.yml lets you compose multiple containers on your local machine that can all communicate with each other. it's not a production tool, just for local dev.
 
 If you ever need to run a container that's crashing, you can do a hacky thing where you run it with command sleep and 100000 or something, and then bash into it from another container to read logs and diagnose
+
+To get back into your setup:
+`docker run -it ubuntu:unminimized`
+(Note for later: `unminimized` is a weird tag name, conventionally it would just be a number like ubuntu:1)

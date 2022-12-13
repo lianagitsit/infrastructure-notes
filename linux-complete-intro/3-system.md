@@ -9,6 +9,17 @@ View multiple directories separated by spaces
 Change the format to see more detail
 `ls -l` (`-l` is the long format)
 
+Example:
+`-rw-r--r-- 2 root root 4096 Dec 13 13:28 fun`
+ls long listing fields:
+`-rw-r--r--` Access rights to the file. The first char indicates the type of file. A leading dash means a regular file, while a `d` means a directory. The next three chars are the access rights for the file's owner, the next three are for members of the file's group, and the final three are for everyone else.
+`2` File's number of hard links.
+`root` Username of the file's owner
+`root` Name of the group that owns the file
+`4096` Size of the file in bytes
+`Dec 13 13:28` Date and time of the file's last modification
+`fun` Name of the file
+
 ## Command format
 
 `command -options arguments`
