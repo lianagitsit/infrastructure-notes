@@ -14,3 +14,6 @@ predefined `find` actions:
 
 find a file in a dir:
 `find [dir] -name [filename]`
+
+To search everywhere from root, use `/` as the dir name. 
+`find / -iname [filename]` will do a case-insensitive search of the filename in all directories
