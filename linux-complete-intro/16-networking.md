@@ -20,3 +20,15 @@ A properly performing network will have 0% packet loss, and a successful ping in
 
 ## Transporting files over a network
 
+`ftp` file transfer protocol
+`wget` another popular program for downloading content from web and ftp sites
+
+## secure communication with remote hosts
+
+`ssh` (secure shell)
+- authetnicates that the remote host is who it says it is
+- encrypts all of the communications between the local and remote hosts
+
+an SSH server runs on a remote host, listening for incoming connections (by default on port 22).
+
+An SSH client is used on the local system to communicate with the remote server.
